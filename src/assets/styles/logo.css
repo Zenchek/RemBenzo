@@ -1,0 +1,14 @@
+.logo{
+    display: flex;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}.logo p{
+    font-size: 20px;
+    font-weight: lighter;
+    
+}
+
+.logo__icon{
+    font-size: 38px;
+}

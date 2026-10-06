@@ -1,0 +1,48 @@
+.modal{
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 0, 0, 0.5);
+}
+.form{
+    background-color: white;
+    border-radius: 16px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+}
+
+.cloase-button{
+    
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.modal__after{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}.modal__after span{
+    color: var(--accent-color);
+    font-size: 24px;
+}.modal__after input{
+    color: var(--text-color);
+    border-radius: 15px;
+    font-size: 20px;
+    padding: 5px 15px;
+}
+
+.modal__button{
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+}

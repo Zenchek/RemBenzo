@@ -1,0 +1,39 @@
+.herro--main-container{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 20px;
+}.herro--container{
+    max-width: var(--container-width);
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero__content{
+    display: flex;
+    flex-direction: column;
+}.hero__content h1{
+    font-size: 40px;
+    font-weight: bold;
+}.hero__content p{
+    font-weight: 100;
+}
+
+.right-container{
+    flex: 1;
+}
+
+.herro--button{
+    color: white;
+    font-size: 24px;
+    width: 250px;
+    padding: 15px;
+}
+
+.left-container{
+    flex: 1;
+    background-image: url(../../assets/images/reglage-carbu-tronconneuse-husqvarna.png);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:contain;
+}

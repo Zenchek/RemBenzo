@@ -1,0 +1,18 @@
+@import "./reset.css";
+@import "./variables.css";
+@import "./logo.css";
+
+
+body {
+    background: var(--background-color);
+    color: var(--text-color);
+}
+
+.button{
+    cursor: pointer;
+    background-color: var(--accent-color);
+    border-radius: 16px;
+    color: white;
+}.button:hover{
+    background:#ff9500;
+}
